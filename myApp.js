@@ -16,9 +16,6 @@
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
-process.env.MONGO_URI =
-  "mongodb+srv://drew2222222:Reed6723~@freecodecampcluster-kl4l1.mongodb.net/test?retryWrites=true&w=majority";
-
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
